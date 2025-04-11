@@ -1,7 +1,7 @@
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { VscGithubInverted } from "react-icons/vsc";
-import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
-import { SiLeetcode } from "react-icons/si";
+import {  FaLinkedin } from "react-icons/fa6";
+// import { SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   const socialLinks = [
@@ -13,7 +13,7 @@ const Hero = () => {
     {
       title: "Instagram",
       tag: <BiLogoInstagramAlt size={20} />,
-      url: "https://instagram.com/yourusername",
+      url: "https://instagram.com/PRUTHIV",
     },
    
     {
@@ -28,7 +28,7 @@ const Hero = () => {
     <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto  ">
       <img
         src="/public/IMG_1800.jpg"
-        alt="Jagadish"
+        alt="PRUTHVI"
         className="rounded-full w-38 h-38 object-cover border p-1"
       />
 
